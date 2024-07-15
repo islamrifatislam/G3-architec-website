@@ -4,5 +4,122 @@
  font-optical-sizing: auto;
  font-weight: 400px;
  font-style: normal;
-                                      }
-                                      
+ }
+ /* sher styles */
+ .display-flex{
+  display: flex;
+}
+.text-primary{
+  color: #FF900E;
+}
+.section-title{
+  font-size: 2.5em;
+  font-weight: 700;
+}
+/* dark-02 */
+.text-gray{
+ color: #424242;                                                                    
+}
+/* dark-03 */
+.text-light-gray{
+color: #727272;
+
+}
+.bg-light{
+background-color: rgba(255, 144, 14, 0.1);
+}
+.btn-primary{
+  background-color: #FF900E;
+  color: white;
+  padding: 20px 25px;
+  font-size: 1.25rem;
+border-radius: 8px;
+border: none;
+}
+.main{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.main>section{
+  margin-top: 130px;
+}
+ /* heder styles */
+
+ /* nav ber styles */
+.navbar{
+  justify-content: space-between;
+  align-items: center;
+}
+.brand{
+font-weight: 700;
+}
+  .nav-item{
+list-style: none;
+margin-right: 30px;
+  }
+  .nav-link{
+text-decoration: none;
+font-weight: 500;
+  }
+  .navbar,.banner{
+ max-width: 1440;
+ margin: 0 auto;
+  }
+  /* banner styles */
+  .banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+  }
+  /* img style */
+  .img-content{
+    width: 100%;
+  }
+  .features{
+    margin-left: 60px;
+    max-width: 530px;
+  }
+  /* responsive media  */
+  @media screen and (max-width:576px){
+    .navbar,.nav-link,.teams{
+      flex-direction: column;
+    }
+    .img-container{
+      grid-template-columns:repeat(1, 1fr)
+      }
+    } 
+  .teams{
+    margin-left: 20px;
+  }
+  /* team items styles */
+  .teams{
+    align-items: center;
+    margin-left: 250px;
+  }
+  /* team img */
+  .img-container{
+    /* margin-left: 320px; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+  }
+ 
+  #Quick-list{
+    font-weight: 500;
+  }
+  /* medium size */
+  @media screen and(min-width:576px)and(max-width:992px){
+    .teams{
+      flex-direction: column;
+    }
+    .features{
+      margin-left: 50px;
+    }
+  }
+    
+  }
