@@ -131,6 +131,26 @@ font-weight: 500;
    .fact-size{
     max-width: 540px;
    }
+/* features-section-title styles */
+.features-card{
+  padding: 30px;
+  box-shadow: 0 4px 30px 0 rgba(0,0,0,0.06);
+  margin-bottom: 20px;
+}
+
+#features-section-title{
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+}
+.features-card,.feature-title{
+  font-weight: 600;
+  font-size: 1.25rem;
+  
+}
+.section-features{
+  margin-left: 300px;
+  text-align: center;
+}
 
 
   /* team items styles */
@@ -167,6 +187,19 @@ font-weight: 500;
   #Quick-list{
     font-weight: 500;
   }
+  /* features-style */
+  .features-style{
+    align-items: center;
+    text-align: center;
+  }
+.initial-scale{
+  display: grid;
+  grid-template-rows: repeat(4,1fr);
+}
+.features-style{
+gap: 20px;
+}
+
   /* medium size */
   @media screen and(min-width:576px)and(max-width:992px){
     .teams{
